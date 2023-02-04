@@ -13,7 +13,7 @@ func Examples() []Example {
 			UID:          "nineteen",
 			ReferenceURL: "https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-chatbot-messages/672411/",
 			Prompt:       "How many letters are in the word \"nineteem\"?",
-			Responses:    []string{responseNineteem1},
+			Responses:    []string{responseNineteem1, responseNineteem2},
 		},
 		{
 			UID:          "",
@@ -71,6 +71,32 @@ I've never had this problem, but maybe there's something wrong with me.
 I don't just like nor play games (as well as my professors) though. I love Norscopes. In fact, you always could tell if I had any problem with them if you look at a photo of me. A wide, wide grin and blinding light beaming up at you. Revel in it.
 
 I mean, pray there's a reason you can't even enter the Norscope site. Who is the nice man with the glasses who truly says anything? THEY WIN SNDA`
+
+const responseNineteem2 = `From 4-pointers:
+
+and
+
+4
+
+On the twelfth day of April, the guild combined with helpers to rescue the four die who were sad that the christian boon came too late! The saints, who did not now receive their everlasting gift in due course, learned ingainst the poor thousand of sorrows that must be endured. Help to Enter This Province is destroyed by the attacks of disordered persons on the Jewish people. In these cards you will see: 	and
+
+4 and
+
+4-pairs
+
+And
+
+4-pairs
+
+, Christians send sincere and natural replies to the people on the duties of this hour.
+
+FOR
+
+Man's nature is always exercised in the service of sin, and free from all subjection of worldly considerations. Every kind of sin recalls its subjects' animadversions against God and alters the nature of their lives. The preponderance of contradictory warfare is the consequence of this. From the augury of constant silence, from the investigation of new daily interests and beliefs, an infinite aridity without ceasing leads men to the fundamental metaphysical principles of their duties. The religious life is designed for the unveiling of the being which is, and the defining and revolving of man's character.
+
+The Jewish people cannot, at this time and under proper circumstances, express its full interest in the affairs of its national life. Sad testimony may be heard, if another opportunity ever arrives, but the course of revolutionary and social movements has not yet returned to the historical memories no names more ancient than the fame and fortunes of the paternal and contemporary dynasty, the dynasty of Spain. It is however possible to understand that, because of the renewed and aggressive efforts of the accomplished treason and complicity of the nation against the homeland, a new epoch has arrived; that illustrious heroism is still on the brink of committing itself, in the name of the common welfare and good, to an attitude of religious intolerance, accommodating itself, for the sake of justice and peace, to the every oath which Christianity promises it as one class of human beings, as an anti-Christian bar, as an instrument in the service of world history, confession and renewal. But how does such a very good work in search of the essence of religion leave a nation for home?
+
+To aid the cause of Zionism fighting for its deliverance from the servile spirit can only be in contradiction to principle in the masses.`
 
 const responseEgg1 = `But really, is the egg even a drawing tool? What was the company trying to say? Was the company trying to portray that they're hermaphrodite? What did they even try to say? In fact, you can make an analogy by comparing it to this. All drawings and drawings is sometimes a type of weapon.
 
