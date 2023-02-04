@@ -18,7 +18,7 @@ const EnvOpenAIKey = "OPENAI_API_KEY"
 func main() {
 	paths, err := config.LoadDotEnv([]string{}, 1)
 	logutil.FatalErr(err)
-	fmtutil.PrintJSON(paths)
+	fmtutil.MustPrintJSON(paths)
 
 	apiKey := os.Getenv(EnvOpenAIKey)
 	fmt.Printf("APIKEY (%s)\n", apiKey)
