@@ -10,6 +10,12 @@ type Example struct {
 func Examples() []Example {
 	return []Example{
 		{
+			UID:          "nineteen",
+			ReferenceURL: "https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-chatbot-messages/672411/",
+			Prompt:       "How many letters are in the word \"nineteem\"?",
+			Responses:    []string{responseNineteem1},
+		},
+		{
 			UID:          "",
 			ReferenceURL: "https://twitter.com/corry_wang/status/1598176074604507136",
 			Prompt:       "Can you write me a 4 paragraph academic essay comparing and constrasting the theories of nationalism of Benedict Anderson and Ernest Gellner?",
@@ -33,6 +39,38 @@ func Examples() []Example {
 		},
 	}
 }
+
+const responseNineteem1 = `Dierika and Erika have discovered a secret to adventure while running a science and technology startup called Nesterin. Their magazine has been on the charts for years, but nobody has yet been able to win the bet.
+
+Build the building, save the galaxy and buy a cow to win even more word chit-chat!
+
+Used and Seated Mogaue amingo·00 May·09·2014·MartialArts·[episodes]·YouTubewebsite.com·Translate this entry
+
+ADVERTISEMENTioryson
+
+SHE THAT NOW LOOKS LIKE A KOTIE
+
+YouTubewebsite.com
+
+Permalink Reply Quote Posted 6/27/14
+
+YOU ART THE MIND OF GOD
+
+YouTubewebsite.com
+
+Permalink Reply Quote Posted 5/27/14
+
+nitrocow
+
+I'm so excited I can't freaking stand this... Boy, if only I could have some of these! With my constant, exaggerated bouts of brain-worship and the way current pop culture directly quotes everything they think I listen to on the radio (mostly DJ Khaled's hits being one of the main inspirations), like I recently said to someone, "you'd think somebody didn't listen to my music more often anyway."
+
+One thing that's universal, though: computer science and technology. Whatever else you think of video games, serious video games, games of any intensity, there is only one thing you can't run from: violence. In fact, there is NO WAY you'd ever compete with it. What a waste of time, money, and studies: games want to cause unnecessary suffering it does the things people want it to, but god forbid actual violent stuff in games other than s**t hitting or shooting.
+
+I've never had this problem, but maybe there's something wrong with me.
+
+I don't just like nor play games (as well as my professors) though. I love Norscopes. In fact, you always could tell if I had any problem with them if you look at a photo of me. A wide, wide grin and blinding light beaming up at you. Revel in it.
+
+I mean, pray there's a reason you can't even enter the Norscope site. Who is the nice man with the glasses who truly says anything? THEY WIN SNDA`
 
 const responseEgg1 = `But really, is the egg even a drawing tool? What was the company trying to say? Was the company trying to portray that they're hermaphrodite? What did they even try to say? In fact, you can make an analogy by comparing it to this. All drawings and drawings is sometimes a type of weapon.
 
