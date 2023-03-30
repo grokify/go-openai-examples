@@ -52,7 +52,7 @@ If your credentials file looks like the following, you can use `-a OPENAI`.
     "OPENAI": {
       "oauth2": {
         "token": {
-          "access_token": "<yourOpenAIToken",
+          "access_token": "<yourOpenAIAPIKey>",
         }
       }
     }
