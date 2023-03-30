@@ -15,10 +15,11 @@ import (
 const EnvOpenAIKey = "OPENAI_API_KEY"
 
 type Options struct {
-	UseEnv       []bool `short:"e" long:"env" description:"List subscriptions"`
+	EnvFile      string `short:"e" long:"env" description:".env file"`
 	CredsFile    string `short:"c" long:"credsfile" description:"Credentials file"`
 	CredsAccount string `short:"a" long:"account" credsaccount:"Credentials account"`
 	Prompt       string `short:"p" long:"prompt" description:"Prompt"`
+	Key          string `short:"k" long:"key" description:"API Key"`
 }
 
 func (opts Options) PromptOrExample(idx int, def string) string {
@@ -41,8 +42,10 @@ func (opts Options) NewClient() (*openai.Client, error) {
 }
 
 func (opts Options) APIKey() (string, error) {
-	if len(opts.UseEnv) > 0 {
-		_, err := config.LoadDotEnv([]string{}, 1)
+	if opts.Key != "" {
+		return opts.Key, nil
+	} else if opts.EnvFile != "" {
+		_, err := config.LoadDotEnv([]string{opts.EnvFile}, 1)
 		if err != nil {
 			return "", err
 		}
@@ -64,6 +67,8 @@ func (opts Options) APIKey() (string, error) {
 			return "", errors.New("OAuth2 token not set")
 		}
 		return creds.OAuth2.Token.AccessToken, nil
+	} else {
+		return os.Getenv(EnvOpenAIKey), nil
 	}
 	return "", fmt.Errorf("required API Key is missing, use '-e' or '-c'")
 }
