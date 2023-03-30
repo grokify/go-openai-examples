@@ -1,5 +1,7 @@
 package examples
 
+import "strings"
+
 type Example struct {
 	UID          string
 	Prompt       string
@@ -7,12 +9,31 @@ type Example struct {
 	ReferenceURL string
 }
 
-func Examples() []Example {
+type Examples []Example
+
+func (exs Examples) PromptOrDefault(idx int, def string) string {
+	if len(exs) > idx {
+		return exs[idx].Prompt
+	}
+	return def
+}
+
+func (exs Examples) PromptFirstOrDefault(def string) string {
+	for _, ex := range exs {
+		p := strings.TrimSpace(ex.Prompt)
+		if p != "" {
+			return p
+		}
+	}
+	return def
+}
+
+func ExamplesData() Examples {
 	return []Example{
 		{
 			UID:          "nineteen",
 			ReferenceURL: "https://www.theatlantic.com/technology/archive/2022/12/openai-chatgpt-chatbot-messages/672411/",
-			Prompt:       "How many letters are in the word \"nineteem\"?",
+			Prompt:       "How many letters are in the word \"nineteen\"?",
 			Responses:    []string{responseNineteem1, responseNineteem2},
 		},
 		{
