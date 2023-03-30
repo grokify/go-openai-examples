@@ -2,6 +2,7 @@ package openapiexamples
 
 import (
 	"context"
+	"errors"
 	"fmt"
 	"strings"
 
@@ -10,6 +11,13 @@ import (
 )
 
 func ChatRequest(client *openai.Client, prompt, model string) (string, error) {
+	if client == nil {
+		return "", errors.New("client is nil")
+	}
+	prompt = strings.TrimSpace(prompt)
+	if prompt == "" {
+		return "", errors.New("prompt is empty")
+	}
 	model = strings.TrimSpace(model)
 	if model == "" {
 		model = openai.GPT3Dot5Turbo
