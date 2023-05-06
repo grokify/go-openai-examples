@@ -36,7 +36,7 @@ When using an `.env` file, use the `-e` parameter, and the the CLI app will look
 
 #### Usage with `goauth` credentials set file
 
-The `github.com/grokify/goauth` credentials set file is a single format to handle multiple types of authentication.n When using a credentials set file, use the `-c` and `-a` parameters.
+The `github.com/grokify/goauth` credentials set file is a single format to handle multiple types of authentication. When using a credentials set file, use the `-c` and `-a` parameters.
 
 ```
 % openaichat -c /path/to/credentialsfile.json` -a yourAccountName -p 'hello ChatGPT!'

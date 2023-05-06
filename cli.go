@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/grokify/go-openai-examples/examples"
-	"github.com/grokify/goauth/credentials"
+	"github.com/grokify/goauth"
 	"github.com/grokify/mogo/config"
 	openai "github.com/sashabaranov/go-openai"
 )
@@ -51,7 +51,7 @@ func (opts Options) APIKey() (string, error) {
 		}
 		return os.Getenv(EnvOpenAIKey), nil
 	} else if opts.CredsFile != "" {
-		credsSet, err := credentials.ReadFileCredentialsSet(opts.CredsFile, false)
+		credsSet, err := goauth.ReadFileCredentialsSet(opts.CredsFile, false)
 		if err != nil {
 			return "", err
 		}
