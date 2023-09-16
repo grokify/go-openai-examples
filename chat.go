@@ -50,7 +50,6 @@ func ChatRequest(client *openai.Client, prompt, model string) (string, error) {
 			return "", err
 		}
 		return stringsutil.CondenseLines(resp.Choices[0].Text, "\n"), nil
-
 	}
 	return "", fmt.Errorf("model unknown (%s)", model)
 }

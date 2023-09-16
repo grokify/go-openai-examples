@@ -67,8 +67,8 @@ func (opts Options) APIKey() (string, error) {
 			return "", errors.New("OAuth2 token not set")
 		}
 		return creds.OAuth2.Token.AccessToken, nil
-	} else {
-		return os.Getenv(EnvOpenAIKey), nil
+	} else if openaiKey := strings.TrimSpace(os.Getenv(EnvOpenAIKey)); len(openaiKey) != 0 {
+		return openaiKey, nil
 	}
 	return "", fmt.Errorf("required API Key is missing, use '-e' or '-c'")
 }
