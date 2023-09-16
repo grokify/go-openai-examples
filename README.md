@@ -1,5 +1,10 @@
 # Go OpenAI Examples
 
+[![Build Status][build-status-svg]][build-status-url]
+[![Go Report Card][goreport-svg]][goreport-url]
+[![Docs][docs-godoc-svg]][docs-godoc-url]
+[![License][license-svg]][license-url]
+
 This is a repo to contain various experiments with OpenAI, such as ChatGPT.
 
 ## `openaichat` CLI app
@@ -58,5 +63,17 @@ If your credentials file looks like the following, you can use `-a OPENAI`.
     }
   }
 }
-
 ```
+
+ [used-by-svg]: https://sourcegraph.com/github.com/grokify/go-openai-examples/-/badge.svg
+ [used-by-url]: https://sourcegraph.com/github.com/grokify/go-openai-examples?badge
+ [build-status-svg]: https://github.com/grokify/goauth/workflows/test/badge.svg
+ [build-status-url]: https://github.com/grokify/goauth/actions/workflows/test.yaml
+ [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/go-openai-examples
+ [goreport-url]: https://goreportcard.com/report/github.com/grokify/go-openai-examples
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/go-openai-examples
+ [docs-godoc-url]: https://pkg.go.dev/github.com/grokify/go-openai-examples
+ [loc-svg]: https://tokei.rs/b1/github/grokify/go-openai-examples
+ [repo-url]: https://github.com/grokify/go-openai-examples
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-url]: https://github.com/grokify/go-openai-examples/blob/master/LICENSE
