@@ -8,7 +8,7 @@ require (
 	github.com/grokify/goauth v0.20.4
 	github.com/grokify/mogo v0.60.1
 	github.com/jessevdk/go-flags v1.5.0
-	github.com/sashabaranov/go-openai v1.17.5
+	github.com/sashabaranov/go-openai v1.17.6
 )
 
 require (
