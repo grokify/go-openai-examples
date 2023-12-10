@@ -6,7 +6,7 @@ go 1.21
 
 require (
 	github.com/grokify/goauth v0.20.5
-	github.com/grokify/mogo v0.61.0
+	github.com/grokify/mogo v0.61.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/sashabaranov/go-openai v1.17.9
 )
