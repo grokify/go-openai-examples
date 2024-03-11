@@ -1,12 +1,13 @@
 module github.com/grokify/go-openai-examples
 
 go 1.21
+toolchain go1.22.1
 
 // toolchain go1.21.1
 
 require (
 	github.com/grokify/goauth v0.20.10
-	github.com/grokify/mogo v0.62.8
+	github.com/grokify/mogo v0.63.2
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/sashabaranov/go-openai v1.19.1
 )
@@ -35,17 +36,17 @@ require (
 	go.opentelemetry.io/otel v1.22.0 // indirect
 	go.opentelemetry.io/otel/metric v1.22.0 // indirect
 	go.opentelemetry.io/otel/trace v1.22.0 // indirect
-	golang.org/x/crypto v0.18.0 // indirect
-	golang.org/x/exp v0.0.0-20240119083558-1b970713d09a // indirect
-	golang.org/x/net v0.20.0 // indirect
+	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/exp v0.0.0-20240222234643-814bf88cf225 // indirect
+	golang.org/x/net v0.22.0 // indirect
 	golang.org/x/oauth2 v0.16.0 // indirect
-	golang.org/x/sys v0.16.0 // indirect
+	golang.org/x/sys v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/api v0.157.0 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240116215550-a9fa1716bcac // indirect
 	google.golang.org/grpc v1.60.1 // indirect
-	google.golang.org/protobuf v1.32.0 // indirect
+	google.golang.org/protobuf v1.33.0 // indirect
 )
 
 // replace github.com/grokify/mogo v0.46.0 => ../mogo
