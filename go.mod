@@ -5,8 +5,8 @@ go 1.22.0
 toolchain go1.22.2
 
 require (
-	github.com/grokify/goauth v0.21.0
-	github.com/grokify/mogo v0.63.11
+	github.com/grokify/goauth v0.21.2
+	github.com/grokify/mogo v0.64.1
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/sashabaranov/go-openai v1.24.1
 )
