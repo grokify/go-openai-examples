@@ -56,7 +56,7 @@ func ExamplesData() Examples {
 				responsePeanutButter1,
 				responsePeanutButter2,
 				" taped in a closet looking for help on just dying to transcribe your brulso i like poetry so creative anyway",
-				` has been around since 1936.Since the days of television and film, movies based on true incidents have been in vogue. The examples you used of book vids, the p2 simulations of motorcycle vid and the airline shuttle...we must emphasize that these were the days and the terms were new to mankind.We are not a master! We are a petete! Each time we learn something of importance, as we have followed on from our very first fufil scening of this collage may I be said to have been able to overcome my inclination to foolishness and say "Lookatatatataaa!" I have loved this collage for its ingenious playing in that the format is one each of my five feet having its merits without prejudice, incuding a bit of the more socially offensive.In conclusion; the seeds have been sown. I confer with the Eunice G. Perkins Centre for the visual and acoustical sciences, New York/USA on an occasion of our retirement as an poet laureate. As in my poems we unite the epic and the romantic, the scientific and the religious, we are writing off of the past but reflecting its deepest component.In homage to composer resonant funk and architect Zsa Zsa Gabor we invite you to nominate a work of yours by composing your own verse in the style of that work.`},
+				` has been around since 1936.Since the days of television and film, movies based on true incidents have been in vogue. The examples you used of book vids, the p2 simulations of motorcycle vid and the airline shuttle...we must emphasize that these were the days and the terms were new to mankind.We are not a master! We are a petete! Each time we learn something of importance, as we have followed on from our very first fufil scening of this collage may I be said to have been able to overcome my inclination to foolishness and say "Lookatatatataaa!" I have loved this collage for its ingenious playing in that the format is one each of my five feet having its merits without prejudice, including a bit of the more socially offensive.In conclusion; the seeds have been sown. I confer with the Eunice G. Perkins Centre for the visual and acoustical sciences, New York/USA on an occasion of our retirement as an poet laureate. As in my poems we unite the epic and the romantic, the scientific and the religious, we are writing off of the past but reflecting its deepest component.In homage to composer resonant funk and architect Zsa Zsa Gabor we invite you to nominate a work of yours by composing your own verse in the style of that work.`},
 		},
 	}
 }
@@ -151,7 +151,7 @@ const responsePeanutButter2 = `-like clock that shows writing and war.
 
 The Punjabi version appears on the stream of an advert that produces amusing results when the camera moves.
 
-The British band Paul's Boutique stole a slice of the cookie jar, showering players with pratice wool handkerchiefs during a tour.
+The British band Paul's Boutique stole a slice of the cookie jar, showering players with practice wool handkerchiefs during a tour.
 
 That's what a regular in your office will do daily it is. Annie Bernstein & Ted Holley. If a TV interviewer doesn't pose a question politely enough by Monday, her interviewer will casually find out something says him.
 
