@@ -65,10 +65,12 @@ If your credentials file looks like the following, you can use `-a OPENAI`.
 }
 ```
 
+ [build-status-svg]: https://github.com/grokify/go-openai-examples/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/grokify/go-openai-examples/actions/workflows/ci.yaml
+ [lint-status-svg]: https://github.com/grokify/go-openai-examples/actions/workflows/lint.yaml/badge.svg?branch=main
+ [lint-status-url]: https://github.com/grokify/go-openai-examples/actions/workflows/lint.yaml
  [used-by-svg]: https://sourcegraph.com/github.com/grokify/go-openai-examples/-/badge.svg
  [used-by-url]: https://sourcegraph.com/github.com/grokify/go-openai-examples?badge
- [build-status-svg]: https://github.com/grokify/goauth/workflows/test/badge.svg
- [build-status-url]: https://github.com/grokify/goauth/actions/workflows/test.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/go-openai-examples
  [goreport-url]: https://goreportcard.com/report/github.com/grokify/go-openai-examples
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/go-openai-examples
@@ -76,4 +78,4 @@ If your credentials file looks like the following, you can use `-a OPENAI`.
  [loc-svg]: https://tokei.rs/b1/github/grokify/go-openai-examples
  [repo-url]: https://github.com/grokify/go-openai-examples
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/grokify/go-openai-examples/blob/master/LICENSE
+ [license-url]: https://github.com/grokify/go-openai-examples/blob/main/LICENSE
