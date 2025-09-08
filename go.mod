@@ -6,7 +6,7 @@ toolchain go1.24.5
 
 require (
 	github.com/grokify/goauth v0.23.19
-	github.com/grokify/mogo v0.70.20
+	github.com/grokify/mogo v0.70.21
 	github.com/jessevdk/go-flags v1.6.1
 	github.com/sashabaranov/go-openai v1.41.1
 )
@@ -38,7 +38,7 @@ require (
 	golang.org/x/exp v0.0.0-20250819193227-8b4c13bb791b // indirect
 	golang.org/x/net v0.43.0 // indirect
 	golang.org/x/oauth2 v0.30.0 // indirect
-	golang.org/x/sys v0.35.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
 	google.golang.org/api v0.248.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250826171959-ef028d996bc1 // indirect
